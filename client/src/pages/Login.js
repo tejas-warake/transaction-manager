@@ -38,7 +38,7 @@ export default function Login() {
             Cookie.set("token", token);
             dispatch(setUser(user));
             navigate("/");
-            // window.location.reload();
+            window.location.reload();
         }
     };
 
